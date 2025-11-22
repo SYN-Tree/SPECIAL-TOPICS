@@ -1,0 +1,2634 @@
+[
+  {
+    "conflict_id": 1,
+    "step": 34,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      6,
+      15
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.94",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A2: PROPOSE (util=0.55, favors=0, energy=100)",
+      "R1:t=0.05 | A2\u2192A1: REJECT (prob=0.50, util=0.08, energy=100)",
+      "R2:t=0.04 | A2\u2192A1: PROPOSE (util=0.45, favors=0, energy=100)",
+      "R2:t=0.06 | A1\u2192A2: ACCEPT (prob=0.49, util=0.94, energy=100)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.04,
+    "timestamp": "13:16:26"
+  },
+  {
+    "conflict_id": 2,
+    "step": 105,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      15,
+      5
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.96",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.04 | A2\u2192A3: PROPOSE (util=0.57, favors=0, energy=31)",
+      "R1:t=0.07 | A3\u2192A2: REJECT (prob=0.50, util=0.06, energy=100)",
+      "R2:t=0.01 | A3\u2192A2: PROPOSE (util=0.46, favors=0, energy=100)",
+      "R2:t=0.03 | A2\u2192A3: ACCEPT (prob=0.49, util=0.96, energy=31)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.088,
+    "timestamp": "13:16:29"
+  },
+  {
+    "conflict_id": 3,
+    "step": 716,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      1,
+      23
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.75",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.05 | A2\u2192A3: PROPOSE (util=0.64, favors=0, energy=0)",
+      "R1:t=0.08 | A3\u2192A2: REJECT (prob=0.49, util=0.49, energy=100)",
+      "R2:t=0.04 | A3\u2192A2: PROPOSE (util=0.40, favors=0, energy=100)",
+      "R2:t=0.06 | A2\u2192A3: ACCEPT (prob=0.50, util=0.75, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.089,
+    "timestamp": "13:16:57"
+  },
+  {
+    "conflict_id": 4,
+    "step": 717,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      1,
+      23
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.73",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.04 | A2\u2192A3: PROPOSE (util=0.57, favors=0, energy=0)",
+      "R1:t=0.06 | A3\u2192A2: ACCEPT (prob=0.49, util=0.73, energy=100)"
+    ],
+    "winner_energy": 0,
+    "fairness_delta": 0.078,
+    "timestamp": "13:16:57"
+  },
+  {
+    "conflict_id": 5,
+    "step": 718,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      1,
+      23
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.97",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.05 | A2\u2192A3: PROPOSE (util=0.83, favors=0, energy=0)",
+      "R1:t=0.07 | A3\u2192A2: ACCEPT (prob=0.51, util=0.97, energy=82)"
+    ],
+    "winner_energy": 0,
+    "fairness_delta": 0.144,
+    "timestamp": "13:16:57"
+  },
+  {
+    "conflict_id": 6,
+    "step": 719,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      1,
+      23
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.35",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.04 | A2\u2192A3: PROPOSE (util=0.56, favors=0, energy=0)",
+      "R1:t=0.07 | A3\u2192A2: REJECT (prob=0.52, util=0.51, energy=64)",
+      "R2:t=0.02 | A3\u2192A2: PROPOSE (util=0.52, favors=0, energy=64)",
+      "R2:t=0.04 | A2\u2192A3: ACCEPT (prob=0.52, util=0.35, energy=0)"
+    ],
+    "winner_energy": 64,
+    "fairness_delta": 0.166,
+    "timestamp": "13:16:57"
+  },
+  {
+    "conflict_id": 7,
+    "step": 722,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      1,
+      23
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.83",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.04 | A2\u2192A3: PROPOSE (util=0.74, favors=0, energy=0)",
+      "R1:t=0.06 | A3\u2192A2: ACCEPT (prob=0.52, util=0.83, energy=64)"
+    ],
+    "winner_energy": 0,
+    "fairness_delta": 0.1,
+    "timestamp": "13:16:57"
+  },
+  {
+    "conflict_id": 8,
+    "step": 723,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      1,
+      23
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.91",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.01 | A2\u2192A3: PROPOSE (util=0.71, favors=0, energy=0)",
+      "R1:t=0.04 | A3\u2192A2: REJECT (prob=0.54, util=0.45, energy=46)",
+      "R2:t=0.02 | A3\u2192A2: PROPOSE (util=0.87, favors=0, energy=46)",
+      "R2:t=0.04 | A2\u2192A3: ACCEPT (prob=0.54, util=0.91, energy=0)"
+    ],
+    "winner_energy": 46,
+    "fairness_delta": 0.138,
+    "timestamp": "13:16:57"
+  },
+  {
+    "conflict_id": 1,
+    "step": 21,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      5,
+      15
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.54",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A1\u2192A2: PROPOSE (util=0.64, favors=0, energy=100)",
+      "R1:t=0.05 | A2\u2192A1: ACCEPT (prob=0.50, util=0.54, energy=100)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.092,
+    "timestamp": "13:17:02"
+  },
+  {
+    "conflict_id": 2,
+    "step": 222,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      21,
+      15
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": false,
+    "detail": "TIMEOUT-FALLBACK rounds=3",
+    "rounds": 6,
+    "transcript": [
+      "R1:t=0.02 | A3\u2192A1: PROPOSE (util=0.75, favors=0, energy=100)",
+      "R1:t=0.05 | A1\u2192A3: REJECT (prob=0.51, util=0.18, energy=40)",
+      "R2:t=0.04 | A1\u2192A3: PROPOSE (util=0.77, favors=0, energy=40)",
+      "R2:t=0.07 | A3\u2192A1: REJECT (prob=0.49, util=0.03, energy=100)",
+      "R3:t=0.03 | A3\u2192A1: PROPOSE (util=0.53, favors=0, energy=100)",
+      "R3:t=0.06 | A1\u2192A3: REJECT (prob=0.49, util=0.03, energy=40)",
+      "TIMEOUT\u2192FALLBACK | WIN=A1 after 3 rounds (fallback util=0.76)"
+    ],
+    "winner_energy": 40,
+    "fairness_delta": 0.042,
+    "timestamp": "13:17:11"
+  },
+  {
+    "conflict_id": 3,
+    "step": 226,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      21,
+      18
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": false,
+    "detail": "TIMEOUT-FALLBACK rounds=3",
+    "rounds": 6,
+    "transcript": [
+      "R1:t=0.03 | A3\u2192A1: PROPOSE (util=0.85, favors=0, energy=67)",
+      "R1:t=0.06 | A1\u2192A3: REJECT (prob=0.48, util=0.08, energy=40)",
+      "R2:t=0.02 | A1\u2192A3: PROPOSE (util=0.53, favors=0, energy=40)",
+      "R2:t=0.05 | A3\u2192A1: REJECT (prob=0.47, util=0.10, energy=67)",
+      "R3:t=0.06 | A3\u2192A1: PROPOSE (util=0.73, favors=0, energy=67)",
+      "R3:t=0.09 | A1\u2192A3: REJECT (prob=0.46, util=0.11, energy=40)",
+      "TIMEOUT\u2192FALLBACK | WIN=A1 after 3 rounds (fallback util=0.66)"
+    ],
+    "winner_energy": 40,
+    "fairness_delta": 0.047,
+    "timestamp": "13:17:11"
+  },
+  {
+    "conflict_id": 1,
+    "step": 92,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      16,
+      7
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.72",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A2\u2192A3: PROPOSE (util=0.96, favors=0, energy=0)",
+      "R1:t=0.05 | A3\u2192A2: ACCEPT (prob=0.50, util=0.72, energy=49)"
+    ],
+    "winner_energy": 0,
+    "fairness_delta": 0.123,
+    "timestamp": "14:00:16"
+  },
+  {
+    "conflict_id": 2,
+    "step": 93,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      16,
+      7
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.64",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.04 | A2\u2192A3: PROPOSE (util=0.82, favors=0, energy=0)",
+      "R1:t=0.06 | A3\u2192A2: ACCEPT (prob=0.52, util=0.64, energy=31)"
+    ],
+    "winner_energy": 0,
+    "fairness_delta": 0.067,
+    "timestamp": "14:00:16"
+  },
+  {
+    "conflict_id": 3,
+    "step": 94,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      16,
+      7
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.87",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A2\u2192A3: PROPOSE (util=0.64, favors=0, energy=0)",
+      "R1:t=0.05 | A3\u2192A2: ACCEPT (prob=0.54, util=0.87, energy=13)"
+    ],
+    "winner_energy": 0,
+    "fairness_delta": 0.092,
+    "timestamp": "14:00:16"
+  },
+  {
+    "conflict_id": 4,
+    "step": 146,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.04",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.05 | A1\u2192A3: PROPOSE (util=0.71, favors=0, energy=100)",
+      "R1:t=0.07 | A3\u2192A1: ACCEPT (prob=0.55, util=0.04, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.052,
+    "timestamp": "14:00:19"
+  },
+  {
+    "conflict_id": 5,
+    "step": 147,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.34",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A3: PROPOSE (util=0.73, favors=0, energy=100)",
+      "R1:t=0.04 | A3\u2192A1: ACCEPT (prob=0.57, util=0.34, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.17,
+    "timestamp": "14:00:19"
+  },
+  {
+    "conflict_id": 6,
+    "step": 148,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.31",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A1\u2192A3: PROPOSE (util=0.67, favors=0, energy=100)",
+      "R1:t=0.05 | A3\u2192A1: ACCEPT (prob=0.59, util=0.31, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.095,
+    "timestamp": "14:00:19"
+  },
+  {
+    "conflict_id": 7,
+    "step": 149,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.46",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.04 | A1\u2192A3: PROPOSE (util=0.70, favors=0, energy=100)",
+      "R1:t=0.06 | A3\u2192A1: ACCEPT (prob=0.61, util=0.46, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.178,
+    "timestamp": "14:00:19"
+  },
+  {
+    "conflict_id": 8,
+    "step": 150,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.16",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A3: PROPOSE (util=0.52, favors=0, energy=100)",
+      "R1:t=0.04 | A3\u2192A1: ACCEPT (prob=0.63, util=0.16, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.066,
+    "timestamp": "14:00:19"
+  },
+  {
+    "conflict_id": 9,
+    "step": 151,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.47",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A3: PROPOSE (util=0.75, favors=0, energy=100)",
+      "R1:t=0.04 | A3\u2192A1: ACCEPT (prob=0.64, util=0.47, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.047,
+    "timestamp": "14:00:19"
+  },
+  {
+    "conflict_id": 10,
+    "step": 152,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.59",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.04 | A1\u2192A3: PROPOSE (util=0.95, favors=0, energy=100)",
+      "R1:t=0.06 | A3\u2192A1: ACCEPT (prob=0.66, util=0.59, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.152,
+    "timestamp": "14:00:19"
+  },
+  {
+    "conflict_id": 11,
+    "step": 153,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.84",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.04 | A1\u2192A3: PROPOSE (util=0.97, favors=0, energy=100)",
+      "R1:t=0.06 | A3\u2192A1: ACCEPT (prob=0.68, util=0.84, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.074,
+    "timestamp": "14:00:19"
+  },
+  {
+    "conflict_id": 12,
+    "step": 154,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.41",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A3: PROPOSE (util=0.68, favors=0, energy=100)",
+      "R1:t=0.04 | A3\u2192A1: ACCEPT (prob=0.70, util=0.41, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.004,
+    "timestamp": "14:00:19"
+  },
+  {
+    "conflict_id": 13,
+    "step": 155,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.80",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.05 | A1\u2192A3: PROPOSE (util=0.49, favors=0, energy=100)",
+      "R1:t=0.07 | A3\u2192A1: ACCEPT (prob=0.72, util=0.80, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.033,
+    "timestamp": "14:00:19"
+  },
+  {
+    "conflict_id": 14,
+    "step": 158,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.29",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A3: PROPOSE (util=0.46, favors=0, energy=100)",
+      "R1:t=0.04 | A3\u2192A1: ACCEPT (prob=0.73, util=0.29, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.105,
+    "timestamp": "14:00:19"
+  },
+  {
+    "conflict_id": 15,
+    "step": 159,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.63",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A3: PROPOSE (util=0.43, favors=0, energy=100)",
+      "R1:t=0.04 | A3\u2192A1: ACCEPT (prob=0.75, util=0.63, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.041,
+    "timestamp": "14:00:19"
+  },
+  {
+    "conflict_id": 16,
+    "step": 164,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.04",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.05 | A1\u2192A3: PROPOSE (util=0.54, favors=0, energy=100)",
+      "R1:t=0.07 | A3\u2192A1: ACCEPT (prob=0.77, util=0.04, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.065,
+    "timestamp": "14:00:20"
+  },
+  {
+    "conflict_id": 17,
+    "step": 165,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.88",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.01 | A1\u2192A3: PROPOSE (util=0.99, favors=0, energy=100)",
+      "R1:t=0.03 | A3\u2192A1: ACCEPT (prob=0.77, util=0.88, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.065,
+    "timestamp": "14:00:20"
+  },
+  {
+    "conflict_id": 18,
+    "step": 166,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.66",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A3: PROPOSE (util=0.77, favors=0, energy=100)",
+      "R1:t=0.04 | A3\u2192A1: ACCEPT (prob=0.77, util=0.66, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.149,
+    "timestamp": "14:00:20"
+  },
+  {
+    "conflict_id": 19,
+    "step": 167,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.12",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.04 | A1\u2192A3: PROPOSE (util=0.54, favors=0, energy=100)",
+      "R1:t=0.06 | A3\u2192A1: ACCEPT (prob=0.77, util=0.12, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.092,
+    "timestamp": "14:00:20"
+  },
+  {
+    "conflict_id": 20,
+    "step": 168,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.76",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.06 | A1\u2192A3: PROPOSE (util=0.85, favors=0, energy=100)",
+      "R1:t=0.08 | A3\u2192A1: ACCEPT (prob=0.77, util=0.76, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.128,
+    "timestamp": "14:00:20"
+  },
+  {
+    "conflict_id": 21,
+    "step": 171,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.24",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A1\u2192A3: PROPOSE (util=0.60, favors=0, energy=100)",
+      "R1:t=0.05 | A3\u2192A1: ACCEPT (prob=0.77, util=0.24, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.037,
+    "timestamp": "14:00:20"
+  },
+  {
+    "conflict_id": 22,
+    "step": 172,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.51",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A3: PROPOSE (util=0.47, favors=0, energy=100)",
+      "R1:t=0.04 | A3\u2192A1: ACCEPT (prob=0.77, util=0.51, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.094,
+    "timestamp": "14:00:20"
+  },
+  {
+    "conflict_id": 23,
+    "step": 173,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.16",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.04 | A1\u2192A3: PROPOSE (util=0.90, favors=0, energy=100)",
+      "R1:t=0.06 | A3\u2192A1: ACCEPT (prob=0.77, util=0.16, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.021,
+    "timestamp": "14:00:20"
+  },
+  {
+    "conflict_id": 24,
+    "step": 174,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.33",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.06 | A1\u2192A3: PROPOSE (util=0.60, favors=0, energy=100)",
+      "R1:t=0.08 | A3\u2192A1: ACCEPT (prob=0.77, util=0.33, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.177,
+    "timestamp": "14:00:20"
+  },
+  {
+    "conflict_id": 25,
+    "step": 175,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.48",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A1\u2192A3: PROPOSE (util=0.84, favors=0, energy=100)",
+      "R1:t=0.05 | A3\u2192A1: ACCEPT (prob=0.77, util=0.48, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.152,
+    "timestamp": "14:00:20"
+  },
+  {
+    "conflict_id": 26,
+    "step": 176,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.13",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.05 | A1\u2192A3: PROPOSE (util=0.78, favors=0, energy=100)",
+      "R1:t=0.07 | A3\u2192A1: ACCEPT (prob=0.77, util=0.13, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.156,
+    "timestamp": "14:00:20"
+  },
+  {
+    "conflict_id": 27,
+    "step": 177,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.21",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A1\u2192A3: PROPOSE (util=0.79, favors=0, energy=100)",
+      "R1:t=0.05 | A3\u2192A1: ACCEPT (prob=0.77, util=0.21, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.132,
+    "timestamp": "14:00:20"
+  },
+  {
+    "conflict_id": 28,
+    "step": 185,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.63",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.01 | A1\u2192A3: PROPOSE (util=0.80, favors=0, energy=49)",
+      "R1:t=0.03 | A3\u2192A1: ACCEPT (prob=0.77, util=0.63, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.079,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 29,
+    "step": 186,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.86",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A3: PROPOSE (util=0.94, favors=0, energy=49)",
+      "R1:t=0.04 | A3\u2192A1: ACCEPT (prob=0.77, util=0.86, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.002,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 30,
+    "step": 187,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.82",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.06 | A1\u2192A3: PROPOSE (util=0.47, favors=0, energy=49)",
+      "R1:t=0.08 | A3\u2192A1: ACCEPT (prob=0.77, util=0.82, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.07,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 31,
+    "step": 188,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.10",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A1\u2192A3: PROPOSE (util=0.41, favors=0, energy=49)",
+      "R1:t=0.05 | A3\u2192A1: ACCEPT (prob=0.77, util=0.10, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.01,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 32,
+    "step": 189,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.67",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A1\u2192A3: PROPOSE (util=0.88, favors=0, energy=49)",
+      "R1:t=0.05 | A3\u2192A1: ACCEPT (prob=0.77, util=0.67, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.199,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 33,
+    "step": 190,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.61",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A1\u2192A3: PROPOSE (util=0.50, favors=0, energy=49)",
+      "R1:t=0.05 | A3\u2192A1: ACCEPT (prob=0.77, util=0.61, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.076,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 34,
+    "step": 191,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.61",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A3: PROPOSE (util=0.80, favors=0, energy=49)",
+      "R1:t=0.04 | A3\u2192A1: ACCEPT (prob=0.77, util=0.61, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.018,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 35,
+    "step": 192,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.89",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.04 | A1\u2192A3: PROPOSE (util=0.95, favors=0, energy=49)",
+      "R1:t=0.06 | A3\u2192A1: ACCEPT (prob=0.77, util=0.89, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.079,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 36,
+    "step": 193,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.59",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A3: PROPOSE (util=0.46, favors=0, energy=49)",
+      "R1:t=0.04 | A3\u2192A1: ACCEPT (prob=0.77, util=0.59, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.031,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 37,
+    "step": 194,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.83",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.05 | A1\u2192A3: PROPOSE (util=0.67, favors=0, energy=49)",
+      "R1:t=0.07 | A3\u2192A1: ACCEPT (prob=0.77, util=0.83, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.189,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 38,
+    "step": 195,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.13",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A1\u2192A3: PROPOSE (util=0.68, favors=0, energy=49)",
+      "R1:t=0.05 | A3\u2192A1: ACCEPT (prob=0.77, util=0.13, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.124,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 39,
+    "step": 196,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.88",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.05 | A1\u2192A3: PROPOSE (util=0.79, favors=0, energy=49)",
+      "R1:t=0.07 | A3\u2192A1: ACCEPT (prob=0.77, util=0.88, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.118,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 40,
+    "step": 199,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.08",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.06 | A1\u2192A3: PROPOSE (util=0.60, favors=0, energy=49)",
+      "R1:t=0.08 | A3\u2192A1: ACCEPT (prob=0.77, util=0.08, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.181,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 41,
+    "step": 200,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.91",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.04 | A1\u2192A3: PROPOSE (util=0.77, favors=0, energy=49)",
+      "R1:t=0.06 | A3\u2192A1: ACCEPT (prob=0.77, util=0.91, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.042,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 42,
+    "step": 201,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.17",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.04 | A1\u2192A3: PROPOSE (util=0.43, favors=0, energy=49)",
+      "R1:t=0.06 | A3\u2192A1: ACCEPT (prob=0.77, util=0.17, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.173,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 43,
+    "step": 204,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.84",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.01 | A1\u2192A3: PROPOSE (util=0.73, favors=0, energy=49)",
+      "R1:t=0.03 | A3\u2192A1: ACCEPT (prob=0.77, util=0.84, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.182,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 44,
+    "step": 205,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.95",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.01 | A1\u2192A3: PROPOSE (util=0.88, favors=0, energy=49)",
+      "R1:t=0.03 | A3\u2192A1: ACCEPT (prob=0.77, util=0.95, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.048,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 45,
+    "step": 206,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.54",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A3: PROPOSE (util=0.55, favors=0, energy=49)",
+      "R1:t=0.04 | A3\u2192A1: ACCEPT (prob=0.77, util=0.54, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.044,
+    "timestamp": "14:00:21"
+  },
+  {
+    "conflict_id": 46,
+    "step": 207,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.53",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A1\u2192A3: PROPOSE (util=0.98, favors=0, energy=49)",
+      "R1:t=0.05 | A3\u2192A1: ACCEPT (prob=0.77, util=0.53, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.132,
+    "timestamp": "14:00:22"
+  },
+  {
+    "conflict_id": 47,
+    "step": 208,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.11",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.04 | A1\u2192A3: PROPOSE (util=0.51, favors=0, energy=49)",
+      "R1:t=0.06 | A3\u2192A1: ACCEPT (prob=0.77, util=0.11, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.02,
+    "timestamp": "14:00:22"
+  },
+  {
+    "conflict_id": 48,
+    "step": 211,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.65",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A1\u2192A3: PROPOSE (util=0.98, favors=0, energy=49)",
+      "R1:t=0.05 | A3\u2192A1: ACCEPT (prob=0.77, util=0.65, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.013,
+    "timestamp": "14:00:22"
+  },
+  {
+    "conflict_id": 49,
+    "step": 212,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.51",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.05 | A1\u2192A3: PROPOSE (util=0.85, favors=0, energy=49)",
+      "R1:t=0.07 | A3\u2192A1: ACCEPT (prob=0.77, util=0.51, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.193,
+    "timestamp": "14:00:22"
+  },
+  {
+    "conflict_id": 50,
+    "step": 213,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.88",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A3: PROPOSE (util=0.50, favors=0, energy=49)",
+      "R1:t=0.04 | A3\u2192A1: ACCEPT (prob=0.77, util=0.88, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.087,
+    "timestamp": "14:00:22"
+  },
+  {
+    "conflict_id": 51,
+    "step": 214,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.24",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.06 | A1\u2192A3: PROPOSE (util=0.50, favors=0, energy=49)",
+      "R1:t=0.08 | A3\u2192A1: ACCEPT (prob=0.77, util=0.24, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.191,
+    "timestamp": "14:00:22"
+  },
+  {
+    "conflict_id": 52,
+    "step": 215,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.89",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.05 | A1\u2192A3: PROPOSE (util=0.99, favors=0, energy=49)",
+      "R1:t=0.07 | A3\u2192A1: ACCEPT (prob=0.77, util=0.89, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.162,
+    "timestamp": "14:00:22"
+  },
+  {
+    "conflict_id": 53,
+    "step": 216,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.59",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.01 | A1\u2192A3: PROPOSE (util=0.51, favors=0, energy=49)",
+      "R1:t=0.03 | A3\u2192A1: ACCEPT (prob=0.77, util=0.59, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.064,
+    "timestamp": "14:00:22"
+  },
+  {
+    "conflict_id": 54,
+    "step": 217,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.19",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.04 | A1\u2192A3: PROPOSE (util=0.61, favors=0, energy=49)",
+      "R1:t=0.06 | A3\u2192A1: ACCEPT (prob=0.77, util=0.19, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.154,
+    "timestamp": "14:00:22"
+  },
+  {
+    "conflict_id": 55,
+    "step": 218,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      17,
+      7
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.02",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A3: PROPOSE (util=0.53, favors=0, energy=49)",
+      "R1:t=0.04 | A3\u2192A1: ACCEPT (prob=0.77, util=0.02, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.105,
+    "timestamp": "14:00:22"
+  },
+  {
+    "conflict_id": 56,
+    "step": 220,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      16,
+      7
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.74",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.02 | A2\u2192A1: PROPOSE (util=0.91, favors=0, energy=0)",
+      "R1:t=0.05 | A1\u2192A2: REJECT (prob=0.77, util=0.53, energy=49)",
+      "R2:t=0.04 | A1\u2192A2: PROPOSE (util=0.60, favors=0, energy=49)",
+      "R2:t=0.06 | A2\u2192A1: ACCEPT (prob=0.51, util=0.74, energy=0)"
+    ],
+    "winner_energy": 49,
+    "fairness_delta": 0.1,
+    "timestamp": "14:00:22"
+  },
+  {
+    "conflict_id": 1,
+    "step": 70,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      15,
+      22
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.79",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.03 | A3\u2192A1: PROPOSE (util=0.85, favors=0, energy=100)",
+      "R1:t=0.06 | A1\u2192A3: REJECT (prob=0.50, util=0.09, energy=100)",
+      "R2:t=0.03 | A1\u2192A3: PROPOSE (util=0.83, favors=0, energy=100)",
+      "R2:t=0.05 | A3\u2192A1: ACCEPT (prob=0.49, util=0.79, energy=100)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.173,
+    "timestamp": "14:00:37"
+  },
+  {
+    "conflict_id": 2,
+    "step": 112,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      13,
+      10
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.85",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.05 | A3\u2192A1: PROPOSE (util=0.43, favors=0, energy=82)",
+      "R1:t=0.08 | A1\u2192A3: REJECT (prob=0.49, util=0.03, energy=100)",
+      "R2:t=0.06 | A1\u2192A3: PROPOSE (util=0.57, favors=0, energy=100)",
+      "R2:t=0.08 | A3\u2192A1: ACCEPT (prob=0.51, util=0.85, energy=82)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.054,
+    "timestamp": "14:00:39"
+  },
+  {
+    "conflict_id": 3,
+    "step": 248,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      24,
+      17
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.84",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A3\u2192A2: PROPOSE (util=0.99, favors=0, energy=34)",
+      "R1:t=0.05 | A2\u2192A3: ACCEPT (prob=0.50, util=0.84, energy=100)"
+    ],
+    "winner_energy": 34,
+    "fairness_delta": 0.107,
+    "timestamp": "14:00:45"
+  },
+  {
+    "conflict_id": 4,
+    "step": 342,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      21,
+      27
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.40",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.02 | A3\u2192A2: PROPOSE (util=0.86, favors=0, energy=0)",
+      "R1:t=0.05 | A2\u2192A3: REJECT (prob=0.52, util=0.47, energy=100)",
+      "R2:t=0.04 | A2\u2192A3: PROPOSE (util=0.62, favors=0, energy=100)",
+      "R2:t=0.06 | A3\u2192A2: ACCEPT (prob=0.52, util=0.40, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.112,
+    "timestamp": "14:00:49"
+  },
+  {
+    "conflict_id": 5,
+    "step": 351,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      21,
+      27
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.25",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.02 | A3\u2192A2: PROPOSE (util=0.55, favors=0, energy=0)",
+      "R1:t=0.05 | A2\u2192A3: REJECT (prob=0.51, util=0.20, energy=100)",
+      "R2:t=0.06 | A2\u2192A3: PROPOSE (util=0.97, favors=0, energy=100)",
+      "R2:t=0.08 | A3\u2192A2: ACCEPT (prob=0.54, util=0.25, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.163,
+    "timestamp": "14:00:50"
+  },
+  {
+    "conflict_id": 6,
+    "step": 352,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      21,
+      27
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.51",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.06 | A3\u2192A2: PROPOSE (util=0.73, favors=0, energy=0)",
+      "R1:t=0.08 | A2\u2192A3: ACCEPT (prob=0.51, util=0.51, energy=100)"
+    ],
+    "winner_energy": 0,
+    "fairness_delta": 0.125,
+    "timestamp": "14:00:50"
+  },
+  {
+    "conflict_id": 7,
+    "step": 357,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      21,
+      27
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.52",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A3\u2192A2: PROPOSE (util=0.57, favors=0, energy=0)",
+      "R1:t=0.05 | A2\u2192A3: ACCEPT (prob=0.52, util=0.52, energy=82)"
+    ],
+    "winner_energy": 0,
+    "fairness_delta": 0.069,
+    "timestamp": "14:00:50"
+  },
+  {
+    "conflict_id": 8,
+    "step": 358,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      21,
+      27
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.64",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.04 | A3\u2192A2: PROPOSE (util=0.97, favors=0, energy=0)",
+      "R1:t=0.06 | A2\u2192A3: ACCEPT (prob=0.54, util=0.64, energy=64)"
+    ],
+    "winner_energy": 0,
+    "fairness_delta": 0.091,
+    "timestamp": "14:00:50"
+  },
+  {
+    "conflict_id": 9,
+    "step": 359,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      21,
+      27
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.59",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.05 | A3\u2192A2: PROPOSE (util=0.92, favors=0, energy=0)",
+      "R1:t=0.07 | A2\u2192A3: ACCEPT (prob=0.56, util=0.59, energy=46)"
+    ],
+    "winner_energy": 0,
+    "fairness_delta": 0.175,
+    "timestamp": "14:00:50"
+  },
+  {
+    "conflict_id": 10,
+    "step": 360,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      21,
+      27
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.65",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A3\u2192A2: PROPOSE (util=0.76, favors=0, energy=0)",
+      "R1:t=0.05 | A2\u2192A3: ACCEPT (prob=0.58, util=0.65, energy=28)"
+    ],
+    "winner_energy": 0,
+    "fairness_delta": 0.007,
+    "timestamp": "14:00:50"
+  },
+  {
+    "conflict_id": 1,
+    "step": 102,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      11,
+      7
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.56",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.04 | A2\u2192A3: PROPOSE (util=0.92, favors=0, energy=91)",
+      "R1:t=0.06 | A3\u2192A2: ACCEPT (prob=0.50, util=0.56, energy=100)"
+    ],
+    "winner_energy": 91,
+    "fairness_delta": 0.125,
+    "timestamp": "14:01:16"
+  },
+  {
+    "conflict_id": 2,
+    "step": 188,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      26,
+      3
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.27",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A2\u2192A1: PROPOSE (util=0.86, favors=0, energy=100)",
+      "R1:t=0.05 | A1\u2192A2: ACCEPT (prob=0.50, util=0.27, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.171,
+    "timestamp": "14:01:20"
+  },
+  {
+    "conflict_id": 3,
+    "step": 189,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      26,
+      3
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.65",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A2\u2192A1: PROPOSE (util=0.40, favors=0, energy=100)",
+      "R1:t=0.04 | A1\u2192A2: ACCEPT (prob=0.52, util=0.65, energy=0)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.101,
+    "timestamp": "14:01:20"
+  },
+  {
+    "conflict_id": 4,
+    "step": 191,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      26,
+      3
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.09",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A2\u2192A1: PROPOSE (util=0.55, favors=0, energy=94)",
+      "R1:t=0.05 | A1\u2192A2: ACCEPT (prob=0.54, util=0.09, energy=0)"
+    ],
+    "winner_energy": 94,
+    "fairness_delta": 0.099,
+    "timestamp": "14:01:21"
+  },
+  {
+    "conflict_id": 5,
+    "step": 192,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      26,
+      3
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.14",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.05 | A2\u2192A1: PROPOSE (util=0.48, favors=0, energy=94)",
+      "R1:t=0.07 | A1\u2192A2: ACCEPT (prob=0.55, util=0.14, energy=0)"
+    ],
+    "winner_energy": 94,
+    "fairness_delta": 0.014,
+    "timestamp": "14:01:21"
+  },
+  {
+    "conflict_id": 6,
+    "step": 193,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      26,
+      3
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.05",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.05 | A2\u2192A1: PROPOSE (util=0.58, favors=0, energy=94)",
+      "R1:t=0.07 | A1\u2192A2: ACCEPT (prob=0.57, util=0.05, energy=0)"
+    ],
+    "winner_energy": 94,
+    "fairness_delta": 0.15,
+    "timestamp": "14:01:21"
+  },
+  {
+    "conflict_id": 7,
+    "step": 194,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      26,
+      3
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.68",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.03 | A2\u2192A1: PROPOSE (util=0.98, favors=0, energy=94)",
+      "R1:t=0.05 | A1\u2192A2: ACCEPT (prob=0.59, util=0.68, energy=0)"
+    ],
+    "winner_energy": 94,
+    "fairness_delta": 0.154,
+    "timestamp": "14:01:21"
+  },
+  {
+    "conflict_id": 8,
+    "step": 650,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      23,
+      31
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.89",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A2\u2192A3: PROPOSE (util=0.97, favors=0, energy=0)",
+      "R1:t=0.04 | A3\u2192A2: ACCEPT (prob=0.52, util=0.89, energy=55)"
+    ],
+    "winner_energy": 0,
+    "fairness_delta": 0.182,
+    "timestamp": "14:01:41"
+  },
+  {
+    "conflict_id": 1,
+    "step": 89,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      13,
+      12
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.56",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.06 | A2\u2192A3: PROPOSE (util=0.63, favors=0, energy=100)",
+      "R1:t=0.08 | A3\u2192A2: ACCEPT (prob=0.50, util=0.56, energy=100)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.191,
+    "timestamp": "14:01:49"
+  },
+  {
+    "conflict_id": 2,
+    "step": 103,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      13,
+      10
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.96",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.05 | A2\u2192A3: PROPOSE (util=0.74, favors=0, energy=94)",
+      "R1:t=0.07 | A3\u2192A2: ACCEPT (prob=0.52, util=0.96, energy=82)"
+    ],
+    "winner_energy": 94,
+    "fairness_delta": 0.111,
+    "timestamp": "14:01:50"
+  },
+  {
+    "conflict_id": 3,
+    "step": 109,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      13,
+      11
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.86",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.05 | A2\u2192A3: PROPOSE (util=0.73, favors=0, energy=94)",
+      "R1:t=0.07 | A3\u2192A2: ACCEPT (prob=0.54, util=0.86, energy=64)"
+    ],
+    "winner_energy": 94,
+    "fairness_delta": 0.102,
+    "timestamp": "14:01:50"
+  },
+  {
+    "conflict_id": 4,
+    "step": 110,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      13,
+      9
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=3 util_responder=0.76",
+    "rounds": 6,
+    "transcript": [
+      "R1:t=0.01 | A2\u2192A3: PROPOSE (util=0.58, favors=0, energy=94)",
+      "R1:t=0.04 | A3\u2192A2: REJECT (prob=0.55, util=0.07, energy=46)",
+      "R2:t=0.05 | A3\u2192A2: PROPOSE (util=0.86, favors=0, energy=46)",
+      "R2:t=0.08 | A2\u2192A3: REJECT (prob=0.51, util=0.20, energy=94)",
+      "R3:t=0.04 | A2\u2192A3: PROPOSE (util=0.90, favors=0, energy=94)",
+      "R3:t=0.06 | A3\u2192A2: ACCEPT (prob=0.54, util=0.76, energy=46)"
+    ],
+    "winner_energy": 94,
+    "fairness_delta": 0.104,
+    "timestamp": "14:01:50"
+  },
+  {
+    "conflict_id": 1,
+    "step": 202,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      23,
+      15
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.57",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.04 | A1\u2192A2: PROPOSE (util=0.57, favors=0, energy=100)",
+      "R1:t=0.07 | A2\u2192A1: REJECT (prob=0.50, util=0.42, energy=100)",
+      "R2:t=0.06 | A2\u2192A1: PROPOSE (util=0.48, favors=0, energy=100)",
+      "R2:t=0.08 | A1\u2192A2: ACCEPT (prob=0.49, util=0.57, energy=100)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.121,
+    "timestamp": "14:02:44"
+  },
+  {
+    "conflict_id": 2,
+    "step": 203,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      23,
+      16
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.62",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A2: PROPOSE (util=0.90, favors=0, energy=85)",
+      "R1:t=0.04 | A2\u2192A1: ACCEPT (prob=0.49, util=0.62, energy=100)"
+    ],
+    "winner_energy": 85,
+    "fairness_delta": 0.074,
+    "timestamp": "14:02:44"
+  },
+  {
+    "conflict_id": 3,
+    "step": 311,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      23,
+      39
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.68",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.03 | A1\u2192A2: PROPOSE (util=0.51, favors=0, energy=88)",
+      "R1:t=0.06 | A2\u2192A1: REJECT (prob=0.51, util=0.43, energy=97)",
+      "R2:t=0.04 | A2\u2192A1: PROPOSE (util=0.52, favors=0, energy=97)",
+      "R2:t=0.06 | A1\u2192A2: ACCEPT (prob=0.51, util=0.68, energy=88)"
+    ],
+    "winner_energy": 97,
+    "fairness_delta": 0.094,
+    "timestamp": "14:02:49"
+  },
+  {
+    "conflict_id": 4,
+    "step": 312,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      24,
+      39
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.53",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.03 | A1\u2192A2: PROPOSE (util=0.82, favors=0, energy=70)",
+      "R1:t=0.06 | A2\u2192A1: REJECT (prob=0.51, util=0.14, energy=97)",
+      "R2:t=0.04 | A2\u2192A1: PROPOSE (util=0.70, favors=0, energy=97)",
+      "R2:t=0.06 | A1\u2192A2: ACCEPT (prob=0.52, util=0.53, energy=70)"
+    ],
+    "winner_energy": 97,
+    "fairness_delta": 0.113,
+    "timestamp": "14:02:49"
+  },
+  {
+    "conflict_id": 5,
+    "step": 313,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      25,
+      39
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 1,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.80",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A2: PROPOSE (util=0.62, favors=0, energy=52)",
+      "R1:t=0.04 | A2\u2192A1: ACCEPT (prob=0.50, util=0.80, energy=97)"
+    ],
+    "winner_energy": 52,
+    "fairness_delta": 0.123,
+    "timestamp": "14:02:49"
+  },
+  {
+    "conflict_id": 6,
+    "step": 490,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      13,
+      39
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.86",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.06 | A3\u2192A2: PROPOSE (util=0.84, favors=0, energy=100)",
+      "R1:t=0.08 | A2\u2192A3: ACCEPT (prob=0.52, util=0.86, energy=91)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.174,
+    "timestamp": "14:02:57"
+  },
+  {
+    "conflict_id": 7,
+    "step": 530,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      11,
+      34
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.90",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A3\u2192A2: PROPOSE (util=0.80, favors=0, energy=82)",
+      "R1:t=0.04 | A2\u2192A3: ACCEPT (prob=0.54, util=0.90, energy=52)"
+    ],
+    "winner_energy": 82,
+    "fairness_delta": 0.135,
+    "timestamp": "14:02:59"
+  },
+  {
+    "conflict_id": 8,
+    "step": 532,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      10,
+      33
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.63",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.02 | A1\u2192A2: PROPOSE (util=0.59, favors=0, energy=0)",
+      "R1:t=0.05 | A2\u2192A1: REJECT (prob=0.55, util=0.28, energy=34)",
+      "R2:t=0.04 | A2\u2192A1: PROPOSE (util=0.41, favors=0, energy=34)",
+      "R2:t=0.06 | A1\u2192A2: ACCEPT (prob=0.54, util=0.63, energy=0)"
+    ],
+    "winner_energy": 34,
+    "fairness_delta": 0.003,
+    "timestamp": "14:02:59"
+  },
+  {
+    "conflict_id": 9,
+    "step": 533,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      10,
+      33
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.80",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.04 | A1\u2192A2: PROPOSE (util=0.68, favors=0, energy=0)",
+      "R1:t=0.07 | A2\u2192A1: REJECT (prob=0.55, util=0.27, energy=34)",
+      "R2:t=0.02 | A2\u2192A1: PROPOSE (util=0.94, favors=0, energy=34)",
+      "R2:t=0.04 | A1\u2192A2: ACCEPT (prob=0.55, util=0.80, energy=0)"
+    ],
+    "winner_energy": 34,
+    "fairness_delta": 0.137,
+    "timestamp": "14:02:59"
+  },
+  {
+    "conflict_id": 10,
+    "step": 534,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      9,
+      33
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": false,
+    "detail": "TIMEOUT-FALLBACK rounds=3",
+    "rounds": 6,
+    "transcript": [
+      "R1:t=0.01 | A3\u2192A2: PROPOSE (util=0.50, favors=0, energy=76)",
+      "R1:t=0.04 | A2\u2192A3: REJECT (prob=0.54, util=0.33, energy=34)",
+      "R2:t=0.04 | A2\u2192A3: PROPOSE (util=0.80, favors=0, energy=34)",
+      "R2:t=0.07 | A3\u2192A2: REJECT (prob=0.51, util=0.07, energy=76)",
+      "R3:t=0.05 | A3\u2192A2: PROPOSE (util=0.58, favors=0, energy=76)",
+      "R3:t=0.08 | A2\u2192A3: REJECT (prob=0.52, util=0.36, energy=34)",
+      "TIMEOUT\u2192FALLBACK | WIN=A2 after 3 rounds (fallback util=0.45)"
+    ],
+    "winner_energy": 34,
+    "fairness_delta": 0.022,
+    "timestamp": "14:02:59"
+  },
+  {
+    "conflict_id": 11,
+    "step": 551,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      1,
+      29
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": false,
+    "detail": "TIMEOUT-FALLBACK rounds=3",
+    "rounds": 6,
+    "transcript": [
+      "R1:t=0.01 | A3\u2192A2: PROPOSE (util=0.64, favors=0, energy=37)",
+      "R1:t=0.04 | A2\u2192A3: REJECT (prob=0.51, util=0.28, energy=37)",
+      "R2:t=0.04 | A2\u2192A3: PROPOSE (util=0.99, favors=0, energy=37)",
+      "R2:t=0.07 | A3\u2192A2: REJECT (prob=0.48, util=0.13, energy=37)",
+      "R3:t=0.02 | A3\u2192A2: PROPOSE (util=0.98, favors=0, energy=37)",
+      "R3:t=0.05 | A2\u2192A3: REJECT (prob=0.49, util=0.46, energy=37)",
+      "TIMEOUT\u2192FALLBACK | WIN=A2 after 3 rounds (fallback util=0.79)"
+    ],
+    "winner_energy": 37,
+    "fairness_delta": 0.041,
+    "timestamp": "14:03:00"
+  },
+  {
+    "conflict_id": 12,
+    "step": 552,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      1,
+      28
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.90",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.05 | A3\u2192A2: PROPOSE (util=0.43, favors=0, energy=4)",
+      "R1:t=0.07 | A2\u2192A3: ACCEPT (prob=0.48, util=0.90, energy=37)"
+    ],
+    "winner_energy": 4,
+    "fairness_delta": 0.113,
+    "timestamp": "14:03:00"
+  },
+  {
+    "conflict_id": 1,
+    "step": 169,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      24,
+      11
+    ],
+    "agents": [
+      1,
+      2
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.29",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A2\u2192A1: PROPOSE (util=0.81, favors=0, energy=100)",
+      "R1:t=0.04 | A1\u2192A2: ACCEPT (prob=0.50, util=0.29, energy=16)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.164,
+    "timestamp": "14:03:14"
+  },
+  {
+    "conflict_id": 2,
+    "step": 272,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      23,
+      23
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 2,
+    "success": true,
+    "detail": "ACCEPT rounds=3 util_responder=0.64",
+    "rounds": 6,
+    "transcript": [
+      "R1:t=0.06 | A2\u2192A3: PROPOSE (util=0.87, favors=0, energy=94)",
+      "R1:t=0.09 | A3\u2192A2: REJECT (prob=0.50, util=0.44, energy=88)",
+      "R2:t=0.05 | A3\u2192A2: PROPOSE (util=0.70, favors=0, energy=88)",
+      "R2:t=0.08 | A2\u2192A3: REJECT (prob=0.50, util=0.09, energy=94)",
+      "R3:t=0.03 | A2\u2192A3: PROPOSE (util=0.61, favors=0, energy=94)",
+      "R3:t=0.05 | A3\u2192A2: ACCEPT (prob=0.48, util=0.64, energy=88)"
+    ],
+    "winner_energy": 94,
+    "fairness_delta": 0.101,
+    "timestamp": "14:03:18"
+  },
+  {
+    "conflict_id": 3,
+    "step": 273,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      23,
+      22
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.86",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.05 | A2\u2192A3: PROPOSE (util=0.92, favors=0, energy=94)",
+      "R1:t=0.08 | A3\u2192A2: REJECT (prob=0.50, util=0.05, energy=70)",
+      "R2:t=0.05 | A3\u2192A2: PROPOSE (util=0.42, favors=0, energy=70)",
+      "R2:t=0.07 | A2\u2192A3: ACCEPT (prob=0.49, util=0.86, energy=94)"
+    ],
+    "winner_energy": 70,
+    "fairness_delta": 0.065,
+    "timestamp": "14:03:18"
+  },
+  {
+    "conflict_id": 4,
+    "step": 275,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      23,
+      20
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.97",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.05 | A2\u2192A3: PROPOSE (util=0.64, favors=0, energy=70)",
+      "R1:t=0.08 | A3\u2192A2: REJECT (prob=0.49, util=0.47, energy=70)",
+      "R2:t=0.03 | A3\u2192A2: PROPOSE (util=0.86, favors=0, energy=70)",
+      "R2:t=0.05 | A2\u2192A3: ACCEPT (prob=0.50, util=0.97, energy=70)"
+    ],
+    "winner_energy": 70,
+    "fairness_delta": 0.032,
+    "timestamp": "14:03:18"
+  },
+  {
+    "conflict_id": 5,
+    "step": 277,
+    "protocol": "ALT-OFFER",
+    "corridor": [
+      22,
+      19
+    ],
+    "agents": [
+      2,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=2 util_responder=0.65",
+    "rounds": 4,
+    "transcript": [
+      "R1:t=0.03 | A2\u2192A3: PROPOSE (util=0.75, favors=0, energy=52)",
+      "R1:t=0.06 | A3\u2192A2: REJECT (prob=0.49, util=0.19, energy=64)",
+      "R2:t=0.04 | A3\u2192A2: PROPOSE (util=0.88, favors=0, energy=64)",
+      "R2:t=0.06 | A2\u2192A3: ACCEPT (prob=0.51, util=0.65, energy=52)"
+    ],
+    "winner_energy": 64,
+    "fairness_delta": 0.075,
+    "timestamp": "14:03:19"
+  },
+  {
+    "conflict_id": 1,
+    "step": 64,
+    "protocol": "PRIORITY",
+    "corridor": [
+      13,
+      24
+    ],
+    "agents": [
+      1,
+      3
+    ],
+    "winner": 3,
+    "success": true,
+    "detail": "ACCEPT rounds=1 util_responder=0.95",
+    "rounds": 2,
+    "transcript": [
+      "R1:t=0.02 | A3\u2192A1: PROPOSE (util=0.84, favors=0, energy=100)",
+      "R1:t=0.04 | A1\u2192A3: ACCEPT (prob=0.50, util=0.95, energy=100)"
+    ],
+    "winner_energy": 100,
+    "fairness_delta": 0.027,
+    "timestamp": "14:03:50"
+  }
+]
