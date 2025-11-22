@@ -206,4 +206,4 @@ If this happens:
 2. Restart the program
 3. Performance will normalize
 
-## ** Developer : ASHLEY COMETA**
+## **Developer : ASHLEY COMETA**
